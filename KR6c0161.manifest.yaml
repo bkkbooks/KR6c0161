@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR6c0161/v1
+canonical_location: https://kanripo.org/bkk/KR6c0161/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 般若心經直說
+  identifiers:
+    alt_id:
+    - X26n0542
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X26/X26n0542.xml
+    old_id: X26n0542
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0161_000.yaml, hash: 'sha256:0d9739dd53b23922eb051c4e5d28aabf6bb31649ee5c87dc22f4b9ab08646485'}
+  - {seq: 1, filename: KR6c0161_001.yaml, hash: 'sha256:9d6f2ec13b5294da463d1c1592115e6fdbfaf8240db780030f92a3d96ef7db94'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0161_001.markers.yaml, hash: 'sha256:875e2a68baef1dc7e6f489f6476b10585ecd83d0b2a697ccff81490b6983145f'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0161_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 3508
+  label: 般若波羅蜜多心經直說
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0161_X_001-mulu-1
+    span:
+    - body
+    - 3027
+    - 3027
+  label: No. 542-A 心經直說䟦
+  type: mulu
+  level: 1
+hash: sha256:2b0b1bd03356ea5e51b6ded5432bcbbf44a58a14e01c24576c1e67ddb29444fe
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
